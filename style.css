@@ -86,23 +86,26 @@ body{
 
 }
 .feature-card{
-    display:flex;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 20px;
     width:100%;
     justify-content: space-evenly;
     height: 600px;
+    border: 10px solid white;
 
 }
 .card{
     background-color: #1a1d53;
      border-radius: 50px;
      text-align: center;
+     padding: 0 0;
 }
 
 .card h3{
-    
     color: white;
     font-family:sans-serif ;
-    flex-wrap: ;
+    
 }
 
 .card img{
