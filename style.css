@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(19, 12, 35);
+    background-color: rgb(32, 28, 42);
     margin: 0 auto;
 }
 .navbar-container{
@@ -77,8 +77,34 @@ body{
     display: flex;
     flex-direction: column;
     height: 80vh;
+
 }
 .features{
     font-size: 3rem;
+    color: white;
+    font-family: sans-serif;
 
+}
+.feature-card{
+    display:flex;
+    width:100%;
+    justify-content: space-evenly;
+    height: 600px;
+
+}
+.card{
+    background-color: #1a1d53;
+     border-radius: 50px;
+     text-align: center;
+}
+
+.card h3{
+    
+    color: white;
+    font-family:sans-serif ;
+    flex-wrap: ;
+}
+
+.card img{
+    border-radius: 50px;
 }
