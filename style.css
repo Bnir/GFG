@@ -72,7 +72,7 @@ button{
     justify-content: center;
     align-items: center;
     margin-bottom: 300px;
-    font-size: 70px;
+    font-size: 2.5rem;
     color: rgb(102, 255, 0);
     font-family: sans-serif;  
     font-weight: 300;  
@@ -81,29 +81,33 @@ button{
 .features-container{
     display: flex;
     flex-direction: column;
-    height: 80vh;
+    height: 60vh;
     width: 86%;
     margin: 0 auto;
 
 }
 .features{
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: white;
     font-family: sans-serif;
+    font-weight: 500;
+    padding-left: 50px;
 
 }
+
 .feature-card{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr ;
     grid-gap: 50px;
-    width:100%;
+    width:90%;
     margin: 0 auto;
     justify-content: space-evenly;
-    height: 600px;
+    height: 45vh;
+
 
 }
 .card{
-    background-color: #1a1d53;
+    background-color: #0c0e31;
      border-radius: 50px;
      text-align: center;
      padding: 0 0;
@@ -120,24 +124,25 @@ button{
 }
 
 .content{
-    height: 60vh;
+    height: 40vh;
     display: flex;
     justify-content: center;
     color: white;
     align-items: center;
-    font-size: 50px;
+    font-size: 35px;
     width: 86%;
-    margin: 0 auto;
+    margin: 100px auto;
     text-align: center;
     flex-direction: column;
 }
 
 .join-btn{
-    padding: 30px 60px;
-    font-size: 30px;
+    padding: 15px 20px;
+    font-size: 20px;
     border-radius: 20px;
     background-color: #0057FF;
     color:white;
+    border: none;
 }
 
 footer{
@@ -147,6 +152,7 @@ footer{
     flex-direction: column;
     justify-content: space-around;
     color:rgb(151, 144, 144);
+ 
 
 }
 
@@ -179,4 +185,16 @@ footer{
     display: flex;
     margin: 4px;
     width: 40px;
+}
+
+
+.nav-link:hover{
+    color: rgb(88, 240, 0);
+}
+.join-btn:hover{
+    background-color: #002369;
+}
+
+.card h3{
+    font-size: 1.5rem;
 }
