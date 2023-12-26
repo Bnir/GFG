@@ -15,7 +15,7 @@ button {
 
 .navbar-cont-1 {
     display: flex;
-    height: 3rem;
+    height: 4rem;
     background-color: black;
     justify-content: center;
     align-items: center;
@@ -29,7 +29,7 @@ button {
 
 .logo-img {
     background: transparent;
-    height: 5rem;
+    height: 7rem;
 }
 
 .navbar-cont-2 {
@@ -67,7 +67,7 @@ button {
     align-content: center;
     justify-content: center;
     height: 90vh;
-    background-image: url("1010111.jpg");
+    background-image: url("/pics/1010111.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

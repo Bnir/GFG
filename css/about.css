@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(32, 28, 42);
+    margin: 0 auto;
+}
+
+button {
+    cursor: pointer;
+}
+
+.navbar-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.navbar-cont-1 {
+    display: flex;
+    height: 4rem;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-logo-btn {
+    background-color: black;
+    border: none;
+}
+
+.logo-img {
+    background: transparent;
+    height: 7rem;
+}
+
+.navbar-cont-2 {
+    display: flex;
+    background-color: rgb(39, 39, 47);
+    justify-content: space-evenly;
+    align-items: center;
+    height: 2.5rem;
+}
+
+.nav-link {
+    color: white;
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+}
+
+.nav-search {
+    background-color: white;
+    border-radius: 15px;
+    height: 1.5rem;
+    width: 200px;
+    font-size: 1rem;
+    align-content: center;
+
+}
