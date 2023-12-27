@@ -83,7 +83,9 @@ button {
 .about-cont2 p {
     font-size: 30px;
 }
-
+.about-col1 h1{
+    margin-top:0;
+}
 .about-cont6 {
     width: 86%;
     margin: 0 auto;
