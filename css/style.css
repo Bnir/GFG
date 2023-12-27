@@ -67,7 +67,7 @@ button {
     align-content: center;
     justify-content: center;
     height: 90vh;
-    background-image: url("/pics/1010111.jpg");
+    background-image: url("../pics/1010111.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
