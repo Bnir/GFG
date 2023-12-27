@@ -130,10 +130,7 @@ button {
     grid-gap: 50px;
     /* display: flex;
     justify-content: space-around; */
-    flex-wrap: wrap;
-    gap: 20px;
     width: 100%;
-    
 }
 
 .card {
