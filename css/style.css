@@ -261,8 +261,8 @@ footer {
 }
 
 .footer-logo img {
-    height: 200px;
-
+    height: 50px;
+    width: auto;
 }
 
 .footer-donation {
@@ -300,3 +300,6 @@ footer {
 .card-btn{
     border-radius: 50px;
 }
+.nav-logo-btn img {
+    width: 50px;
+    height: auto;
