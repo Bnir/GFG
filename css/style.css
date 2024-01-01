@@ -1,9 +1,5 @@
-*{
-    text-decoration:none;
-}
-
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(32, 28, 42);
     margin: 0 auto;
 }
 
@@ -14,7 +10,7 @@ button {
 .navbar-container {
     display: flex;
     flex-direction: column;
-    border-bottom: 2px solid black;
+
 }
 
 .navbar-cont-1 {
@@ -27,7 +23,7 @@ button {
 }
 
 .nav-logo-btn {
-    background-color: rgb(0, 0, 0);
+    background-color: black;
     border: none;
 }
 
@@ -38,16 +34,15 @@ button {
 
 .navbar-cont-2 {
     display: flex;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(39, 39, 47);
     justify-content: space-evenly;
     align-items: center;
     height: 2.5rem;
 }
 
 .nav-link {
-    color: rgb(0, 0, 0);
+    color: white;
     border: none;
-    font-weight: 700;
     background-color: transparent;
     font-size: 1rem;
 }
@@ -71,153 +66,79 @@ button {
 .img-container1 {
     align-content: center;
     justify-content: center;
-    background-image: url("../images/coder2.png");
+    height: 90vh;
+    background-image: url("../pics/1010111.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed    ;
-    
 }
 
 .head1 {
-    height: 100vh;
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 300px;
     font-size: 2.5rem;
-    color: rgb(255, 255, 255);
+    color: rgb(102, 255, 0);
     font-family: sans-serif;
     font-weight: 300;
-}
-
-.head1 h1{
-    display: flex;
-   flex-direction: row;
-   justify-content: center;
-   margin-top:0;
-   font-size: 7rem;
-   padding-top:2rem;
-   margin-right: 2%;
-    color: transparent;
-    -webkit-text-stroke-color: rgb(0, 0, 0);
-    -webkit-text-stroke-width: 4px;    
-}
-
-.navbar-container{
-    width: 100%;
 }
 
 .features-container {
     display: flex;
     flex-direction: column;
+    height: 60vh;
     width: 86%;
     margin: 0 auto;
 
 }
 
-::placeholder {
+::placeholder{
     text-align: center;
 }
 
 .features {
     font-size: 3rem;
-    color: rgb(0, 0, 0);
+    color: white;
     font-family: sans-serif;
     font-weight: 700;
 }
-
+    
 .feature-card {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 50px;
-    /* display: flex;
-    justify-content: space-around; */
     width: 100%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    height: 60vh;
+
+
 }
 
 .card {
-    background-color: #ffffff;
+    background-color: #0c0e31;
     border-radius: 50px;
     text-align: center;
-    padding: 0 0 100px 0;
-    border:4px solid rgb(27, 25, 25);
-    transition: 0.4s;
-    height: 50vh;
-    cursor: pointer;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.678), inset -20px -20px 40px rgba(255, 255, 255, 0.705);
-}
-
-@media (width<1100px){
-  .feature-card{
-    display: flex;
-    flex-direction:column;
-    
-}
-
-.card{
-    padding-bottom: 100px;
-    
-}
-}
-
-
-
-@media(width > 1800px)
-{
-    .nav-link{
-        font-size: 1.2rem;
-    }
-    .navbar-cont-2{
-        height:3.2rem;
-    }
-    .nav-search{
-        width: 400px;
-        height:1.8rem;
-        border-radius: 20px;
-    }
-    ::placeholder{
-        font-size: 1.4rem;
-    }
-}
-
-@media(width > 2200px)
-{
-    .nav-link{
-        font-size: 1.5rem;
-    }
-    .navbar-cont-2{
-        height:4.5rem;
-    }
-    .nav-search{
-        width: 400px;
-        height:2rem;
-        border-radius: 20px;
-    }
-    ::placeholder{
-        font-size: 1.4rem;
-    }
-}
-
-
-
-.card:hover{
-    box-shadow: 8px 8px 20px blueviolet;
-    scale: 1.1;
+    padding: 0 0;
 }
 
 .card h3 {
-    color: rgb(0, 0, 0);
+    color: white;
     font-family: sans-serif;
 
 }
 
 .card img {
     border-radius: 50px;
-    width: 100%;
-    max-height: 80%;
 }
 
 .content {
+    height: 40vh;
     display: flex;
     justify-content: center;
-    color: rgb(0, 0, 0);
+    color: white;
     align-items: center;
     font-size: 35px;
     width: 86%;
@@ -230,10 +151,9 @@ button {
     padding: 15px 20px;
     font-size: 20px;
     border-radius: 20px;
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    border: 2px solid ;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.678), inset -20px -20px 40px rgba(255, 255, 255, 0.705);
+    background-color: #0057FF;
+    color: white;
+    border: none;
 }
 
 footer {
@@ -246,9 +166,7 @@ footer {
 
 
 }
-.login-btn{
-    color: rgb(21, 255, 0);
-}
+
 .footer-cont-1 {
     width: 86%;
     margin: 0 auto;
@@ -288,20 +206,13 @@ footer {
 }
 
 .join-btn:hover {
-    background-color: #0077ff;
+    background-color: #002369;
 }
 
 .card h3 {
     font-size: 1.5rem;
 }
-
-
-
-.card-btn{
-    border-radius: 50px;
-}
 .nav-logo-btn img {
     width: 50px;
     height: auto;
-
 }
